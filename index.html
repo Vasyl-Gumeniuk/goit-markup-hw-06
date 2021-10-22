@@ -449,7 +449,7 @@
             <li class="socials">
                 <a href="https://www.linkedin.com/" class="social-link">
                   <svg class="footer-social-icon" width="20px" height="20px">
-                    <use href="./images/images-decoration/icons.svg#icon-linkedin"></use>
+                    <use href="./images/images-decoration/icons.svg#icon-linkedin">
                     </use>
                   </svg>
                 </a>
@@ -480,6 +480,58 @@
             <use href="./images/images-decoration/symbol-defs.svg#icon-close-icon" class="use-img"></use>
           </svg>
         </button>
+        <div class="modal-thumb">
+          <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+           <form action="modal-form" class="modal-form">
+               <label class="label-fild">
+                <span class="label-name">Имя</span>
+                <input type="text" class="label-input" name="name" placeholder=" ">
+                <span class="label-icon">
+                  <svg class="modal-icon">
+                    <use href="./images/images-decoration/icons.svg#icon-person-black">
+                    </use>
+                  </svg>
+                </span>
+               </label>
+            
+               <label class="label-fild">
+                 <span class="label-name">Телефон</span>
+                 <input type="tel" class="label-input" name="tel" placeholder=" ">
+                 <span class="label-icon">
+                  <svg class="modal-icon">
+                    <use href="./images/images-decoration/icons.svg#icon-phone-black">
+                    </use>
+                  </svg>
+                </span>
+               </label>
+            
+               <label class="label-fild">
+                 <span class="label-name">Почта</span>
+                 <input type="email" class="label-input" name="email" placeholder=" ">
+                 <span class="label-icon">
+                  <svg class="modal-icon">
+                    <use href="./images/images-decoration/icons.svg#icon-email-black">
+                    </use>
+                  </svg>
+                </span>
+               </label>
+            
+               <label class="label-fild">
+                <span class="label-name">Комментарий</span>
+               <textarea class="modal-textarea" name="coment" cols="" rows="" placeholder="Введите текст"></textarea>
+               </label>
+
+               <label class="label-checkbox">
+               <input class="modal-form-checkbox" type="checkbox" name="checkbox" value="Соглашаюсь с рассылкой и принимаю Условия договора">
+               <span class="checkbox-icon"></span>
+               Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-link">Условия договора</a> 
+              </label>
+
+              <label class="modal-button-send">
+              <button type="submit" class="modal-form-button">Отправить</button>
+              </label>
+            </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
