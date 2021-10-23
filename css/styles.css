@@ -898,9 +898,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .modal-title {
 font-style: normal;
 font-weight: bold;
-line-height:1.15;
+font-size: 20px;
+line-height: 1.15;
 text-align: center;
-letter-spacing: 0.03em;
+letter-spacing: 0.01em;
 color: var(--title-text-color);
 margin-top: 0px;
 margin-bottom: 12px;
@@ -912,9 +913,14 @@ width: auto;
 height: auto;
 position: relative;
 }
+.label-fild-thumb {
+  margin-bottom: 10px;
+}
+.label-fild-thumb:nth-child(4) {
+margin-bottom: 20px;
+}
 .label-fild {
 display: block;
-margin-bottom: 10px;
 position: relative;
 }
 .label-name {
@@ -958,11 +964,12 @@ width: 18px;
 left: 12px;
 top: 50%;
 }
+.label-checkbox-thumb {
+text-align: center;
+}
 .label-checkbox {
 display: inline-block;
 text-align: center;
-margin-top: 10px;
-margin-bottom: 30px;
 position: relative;
 font-style: normal;
 font-weight: normal;
@@ -981,6 +988,9 @@ border: 0;
 padding: 0;
 clip: rect(0 0 0 0);
 overflow: hidden;
+}
+.modal-button-send-thumb {
+  margin-top: 30px;
 }
 .modal-button-send {
   display: flex;
@@ -1040,5 +1050,3 @@ background-origin: border-box;
     cursor: pointer;
     fill: var(--accent-color);
 }
-
-text-align: center

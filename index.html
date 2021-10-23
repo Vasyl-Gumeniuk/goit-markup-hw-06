@@ -481,8 +481,9 @@
           </svg>
         </button>
         <div class="modal-thumb">
-          <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
            <form action="modal-form" class="modal-form">
+             <div class="label-fild-thumb">  
                <label class="label-fild">
                 <span class="label-name">Имя</span>
                 <input type="text" class="label-input" name="name" placeholder=" ">
@@ -493,7 +494,9 @@
                   </svg>
                 </span>
                </label>
+               </div> 
             
+               <div class="label-fild-thumb">
                <label class="label-fild">
                  <span class="label-name">Телефон</span>
                  <input type="tel" class="label-input" name="tel" placeholder=" ">
@@ -504,8 +507,10 @@
                   </svg>
                 </span>
                </label>
+               </div>
             
-               <label class="label-fild">
+              <div class="label-fild-thumb"> 
+              <label class="label-fild">
                  <span class="label-name">Почта</span>
                  <input type="email" class="label-input" name="email" placeholder=" ">
                  <span class="label-icon">
@@ -515,21 +520,28 @@
                   </svg>
                 </span>
                </label>
+               </div>
             
+               <div class="label-fild-thumb">
                <label class="label-fild">
                 <span class="label-name">Комментарий</span>
                <textarea class="modal-textarea" name="coment" cols="" rows="" placeholder="Введите текст"></textarea>
                </label>
+               </div>
 
+               <div class="label-checkbox-thumb">
                <label class="label-checkbox">
                <input class="modal-form-checkbox" type="checkbox" name="checkbox" value="Соглашаюсь с рассылкой и принимаю Условия договора">
                <span class="checkbox-icon"></span>
                Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-link">Условия договора</a> 
               </label>
+              </div>
 
+              <div class="modal-button-send-thumb">
               <label class="modal-button-send">
               <button type="submit" class="modal-form-button">Отправить</button>
               </label>
+              </div>
             </form>
         </div>
       </div>
